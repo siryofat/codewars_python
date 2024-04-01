@@ -16,4 +16,4 @@ def greet(name: str, owner: str) -> str:
     :param owner: Person who owns?
     :return: A greeting
     '''
-    return "Hello boss" if name == owner else "Hello guest"
+    return f"Hello {'boss' if name == owner else 'guest'}"
