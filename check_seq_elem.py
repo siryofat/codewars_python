@@ -13,4 +13,4 @@ def check(seq: list, elem: [str | int]) -> bool:
     :param elem: element to look for.
     :return: True if element exists in sequence, else False.
     '''
-    return True if elem in seq else False
+    return elem in seq
