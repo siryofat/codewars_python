@@ -17,5 +17,3 @@ def greet(name: str, owner: str) -> str:
     :return: A greeting
     '''
     return "Hello boss" if name == owner else "Hello guest"
-
-print(greet("hi", "hi2"))
